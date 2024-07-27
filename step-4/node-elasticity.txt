@@ -1,0 +1,37 @@
+phutran@Phus-Laptop sre-deployment-roulette-prj % kubectl get pods --all-namespaces
+NAMESPACE     NAME                                  READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-547hh                        2/2     Running   0          153m
+kube-system   aws-node-trxnt                        2/2     Running   0          18m
+kube-system   aws-node-wg2dl                        2/2     Running   0          151m
+kube-system   cluster-autoscaler-846f4dff75-hcbxw   1/1     Running   0          22m
+kube-system   coredns-858457f4f6-n5hvv              1/1     Running   0          149m
+kube-system   coredns-858457f4f6-swd9n              1/1     Running   0          149m
+kube-system   kube-proxy-jxstt                      1/1     Running   0          18m
+kube-system   kube-proxy-qnqg5                      1/1     Running   0          151m
+kube-system   kube-proxy-z5872                      1/1     Running   0          153m
+udacity       bloaty-mcbloatface-7bbb87f5d9-2h7c9   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-6xdbg   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-7zsjc   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-8c8tz   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-8ht2r   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-9kccj   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-cv4wt   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-cv76x   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-hlxhl   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-jp7k2   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-k5gpf   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-m2wct   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-m6fz7   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-mjnxh   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-nnw69   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-wt5tt   1/1     Running   0          19m
+udacity       bloaty-mcbloatface-7bbb87f5d9-xm69j   1/1     Running   0          19m
+udacity       canary-v1-7bb5f78b95-4x7rn            1/1     Running   0          154m
+udacity       canary-v1-7bb5f78b95-hx224            1/1     Running   0          152m
+udacity       canary-v2-557b4c87c9-7c8qf            1/1     Running   0          154m
+udacity       canary-v2-557b4c87c9-q9k6l            1/1     Running   0          152m
+udacity       green-55df4b774d-27frg                1/1     Running   0          154m
+udacity       green-55df4b774d-jk9jg                1/1     Running   0          152m
+udacity       green-55df4b774d-z9qnz                1/1     Running   0          152m
+udacity       hello-world-685b948ddc-9plc6          1/1     Running   0          154m
+phutran@Phus-Laptop sre-deployment-roulette-prj %
