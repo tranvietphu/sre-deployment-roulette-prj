@@ -1,0 +1,43 @@
+phutran@Phus-Laptop step-2 % kubectl run debug --rm -i --tty --image nicolaka/netshoot -- /bin/bash
+If you don't see a command prompt, try pressing enter.
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 1</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~# curl 172.20.254.127
+<html>
+<h1>This is version 2</h1>
+</html>
+debug:~#
